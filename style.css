@@ -1,0 +1,32 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-smoothing: subpixel-antialiased; 
+}
+div{
+  width:100%;
+}
+.container-text{
+  width:100%;
+  color:#d37676;
+  position:absolute;
+  top:10%;
+  z-index:999;
+  text-align:center;
+  margin: 0 auto;
+}
+.container-text h1{
+  font-family: "Oxanium", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size:12vw;
+}
+.container-text p{
+  font-family: Arial, sans-serif;
+  font-size: 2vw;
+  margin: 0 auto;
+  line-height: 1.5;
+}
